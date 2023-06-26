@@ -1,6 +1,5 @@
+# Lab 06
 import sys
-
-
 def sBox(pltR, key):
   if((pltR == "00" and key == "0000") or (pltR == "11" and key == "0001") or (pltR == "10" and key == "0001") or (pltR == "11" and key == "0010") or (pltR == "10" and key == "0010") or (pltR == "11" and key == "0010") or (pltR == "01" and key == "0011") or (pltR == "01" and key == "0100") or (pltR == "00" and key == "0111") or (pltR == "10" and key == "1000") or (pltR == "01" and key == "1001") or (pltR == "00" and key == "1010") or (pltR == "11" and key == "1010") or (pltR == "11" and key == "1101") or (pltR == "10" and key == "1101") or (pltR == "01" and key == "1110") or (pltR == "00" and key == "1110")):
     return "00"
